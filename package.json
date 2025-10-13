@@ -9,7 +9,8 @@
 		"test": "dotenv -e .env.test -- vitest run",
 		"test:watch": "dotenv -e .env.test -- vitest",
 		"db:generate": "drizzle-kit generate",
-		"db:migrate": "drizzle-kit migrate"
+		"db:migrate": "drizzle-kit migrate",
+		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.4",
@@ -32,6 +33,7 @@
 		"postgres": "^3.4.7",
 		"run": "^1.5.0",
 		"test": "^3.3.0",
+		"uuidv7": "^1.0.2",
 		"zod": "^4.1.11"
 	}
 }
